@@ -16,7 +16,7 @@ resource "panos_static_route_ipv4" "ipsec" {
   name           = "IPSec"
   virtual_router = panos_virtual_router.virtual-router.name
   destination    = "172.16.0.0/12"
-  next_hop       = "10.100.1.254"
+  next_hop       = "10.10.10.254"
 
   lifecycle {
     create_before_destroy = true

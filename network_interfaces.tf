@@ -16,7 +16,7 @@ resource "panos_ethernet_interface" "eth1-2" {
   name               = "ethernet1/2"
   vsys               = "vsys1"
   mode               = "layer3"
-  static_ips         = ["10.100.1.1/24"]
+  static_ips         = ["10.10.10.1/24"]
   management_profile = "INSIDE"
   comment            = "Internal network"
   lifecycle {

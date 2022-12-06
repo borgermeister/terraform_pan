@@ -101,34 +101,6 @@ resource "panos_security_rule_group" "domain" {
 resource "panos_security_rule_group" "bottom" {
   position_keyword = "bottom"
   rule {
-    name                  = "Deny something everything else"
-    group_tag             = "DENY"
-    source_zones          = ["any"]
-    source_addresses      = ["any"]
-    source_users          = ["any"]
-    hip_profiles          = ["any"]
-    destination_zones     = ["any"]
-    destination_addresses = ["any"]
-    applications          = ["any"]
-    services              = ["application-default"]
-    categories            = ["any"]
-    action                = "deny"
-  }
-  rule {
-    name                  = "Deny almost everything else"
-    group_tag             = "DENY"
-    source_zones          = ["any"]
-    source_addresses      = ["any"]
-    source_users          = ["any"]
-    hip_profiles          = ["any"]
-    destination_zones     = ["any"]
-    destination_addresses = ["any"]
-    applications          = ["any"]
-    services              = ["application-default"]
-    categories            = ["any"]
-    action                = "deny"
-  }
-  rule {
     name                  = "Deny everything else"
     group_tag             = "DENY"
     source_zones          = ["any"]
