@@ -8,9 +8,6 @@ desktop.ini
 .Trashes
 ._*
 
-# MacOS
-.DS_Store
-
 # Local .terraform directories
 **/.terraform/*
 
