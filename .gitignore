@@ -1,9 +1,25 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# MacOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# MacOS
+.DS_Store
+
 # Local .terraform directories
 **/.terraform/*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# Terraform lock files
+*.terraform.lock.*
 
 # Crash log files
 crash.log
