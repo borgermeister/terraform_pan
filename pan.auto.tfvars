@@ -1,5 +1,5 @@
 pan_hostname            = "fw01"
-pan_domain              = "netsecurity.no"
+pan_domain              = "borgermeister.cloud"
 pan_timezone            = "Europe/Oslo"
 dns_primary             = "1.1.1.1"
 dns_secondary           = "8.8.8.8"
